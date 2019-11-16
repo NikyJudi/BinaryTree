@@ -3,7 +3,7 @@ import java.util.Queue;
 
 public class IsCompleteTree {
     //完全二叉树判定
-    public boolean isComplete(TreeNode root){
+    public boolean isComplete(TreeNode root){ 
         if (root == null) {
             return true;
         }
